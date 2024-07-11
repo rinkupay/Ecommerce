@@ -1,0 +1,19 @@
+.users-container{
+    width: 100%;
+ 
+   height: auto;
+   display: flex;
+   justify-content: center;
+}
+
+.users-feeds{
+    width:100%;
+
+}
+.users-admin-heading{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+
+}

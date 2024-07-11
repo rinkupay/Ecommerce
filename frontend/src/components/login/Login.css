@@ -1,0 +1,78 @@
+.register-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.register-contents{
+  width: 100%;
+  height:calc(100vh - 3.5rem);
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.form-contents{
+  width: 25rem;
+text-align: center;
+  display: flex;
+ flex-direction: column;
+ /* height: 20rem; */
+ margin-top: 2rem;
+ /* background-color: cadetblue; */
+ padding: 1rem;
+}
+.register-heading{
+  color: rgb(70, 62, 62);
+  margin-bottom: 1rem;
+}
+.input-email{
+  position: relative;
+
+}
+.email-icon{
+  position: absolute;
+  top: 0.8rem;
+  left: 0.5rem;
+}
+
+.register-input{
+  height: 3rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left:  3rem;
+  background-color: antiquewhite;
+}
+
+.register-btn{
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(71, 148, 219);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.register-btn:hover{
+  background-color: rgb(25, 116, 201);
+}
+
+.forgot-password{
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+
+  align-self: flex-end;
+}
+.forgot-password:hover{
+  color: blue;
+}

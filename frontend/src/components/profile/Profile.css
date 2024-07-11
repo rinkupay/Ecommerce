@@ -1,0 +1,135 @@
+.profile-container-wrapper{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-container{
+    width: 80%;
+  display: flex;
+
+    margin-top: 1rem;
+}
+
+.profile-left-container{
+    flex: 1;
+    /* background-color: aquamarine; */
+   
+}
+.profile-menu-1{
+    display: flex;
+    background-color: white;
+    padding: 0.5rem;
+    align-items: center;
+    margin-bottom:10px;
+    
+}
+.profile-image-1{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.name-greet{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.profile-link{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: #2874F1;
+}
+
+/* .profile-menu-1.link-active:hover{
+    background-color: rgb(245, 245, 245);
+} */
+.profile-menu-1.link-active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    height: 3rem;
+    margin-bottom: 1px;
+}
+.icon-profile-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-menu-1.link-active.more{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+}
+.profile-sub-link{
+    margin: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* << ========================  RIGHT CONTAINER ========================>> */
+.profile-right-container{
+    flex: 3;
+    background-color: white;
+    margin-left: 1rem;
+    display: flex;
+   
+    justify-content: center;
+
+}
+.profile-main{
+    width: 95%;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.profile-heading{
+    display: flex;
+    align-items: center;
+}
+.info-edit{
+    margin-left: 2rem;
+    font-size: 15px;
+    color: #2874F1;
+    cursor: pointer;
+}
+.profile-value{
+    height: 3rem;
+    width: 15rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    padding-left: 1rem;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+.profile-value.active{
+    border: 1px solid blue;
+    background-color: white;
+}
+.gender{
+    margin-bottom: 1rem;
+}
+.gender-heading{
+    margin-top: 1rem;
+}
+.gender-input{
+    margin: 1rem;
+}

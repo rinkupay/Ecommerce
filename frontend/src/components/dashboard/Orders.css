@@ -1,0 +1,19 @@
+.orders-container{
+    width: 100%;
+ 
+   height: auto;
+   display: flex;
+   justify-content: center;
+}
+
+.orders-feeds{
+    width:100%;
+
+}
+.order-admin-heading{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+
+}

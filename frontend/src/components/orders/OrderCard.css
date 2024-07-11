@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.order-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 58vw;
+    height: 20vh;
+    background-color:white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.order-img-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.pro-name{
+    margin-left: 1rem;
+}
+
+.order-card-img{
+    width: 8rem;
+    height: 8rem;
+}

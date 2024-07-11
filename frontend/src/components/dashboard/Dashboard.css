@@ -1,0 +1,101 @@
+.dashboard-container-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dashboard-container{
+    width: 95%;
+    height: auto;
+    margin-top: 1rem;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+
+.dashboard-left-container{
+    width: 20%;
+    /* background-color: aquamarine; */
+}
+
+.dashboard-Right-container{
+    width: 80%;
+    margin-left: 0.5rem;
+    background-color: white;
+    /* padding: 2rem 0; */
+}
+
+.dashboard-right-container-1{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-heading{
+    text-align: center;
+
+}
+.total-order-price-overview{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    width: 100%;
+ padding: 1rem 0 ;
+ background-color: rgb(77, 158, 233);
+ margin-top: 1rem;
+}
+
+.total-order-price-overview-2{
+
+    display: flex;
+   
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ padding: 1rem 0 ;
+ /* background-color: rgb(77, 158, 233); */
+ margin-top: 1rem;
+}
+.total-order-price-overview-2>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+    background-color: rgb(28, 135, 197);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.total-order-price-overview-2>a:first-child{
+    background-color: rgb(26, 141, 141);
+}
+.total-order-price-overview-2>a:last-child{
+    background-color: rgb(14, 120, 241);
+}
+
+.line-chart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 60rem;
+    height: auto;
+    margin-top: 5rem;
+}
+.donought-chart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 20rem;
+    /* min-width: 30rem; */
+    height: auto;
+    margin-top: 5rem;
+}

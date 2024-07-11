@@ -1,0 +1,274 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-wrapper {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 3.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.logo {
+    display: flex;
+   
+}
+.title{
+    text-decoration: none;
+    font-family: "Roboto" ,sans-serif;
+    font-weight:600 ;
+}
+.title:hover{
+    filter: drop-shadow(0 0 10px red);
+    color: white;
+}
+
+
+.nav-menu>ul {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    list-style: none;
+
+
+
+}
+
+
+
+.nav-menu>ul>li {
+    margin-left: 1rem;
+    font-family: "Roboto", sans-serif;
+    /* height: 3.5rem; */
+
+}
+
+
+.link {
+    text-decoration: none;
+    font-family: "Roboto" sans-serif;
+    font-size: 18px;
+    padding: 0.5rem  0.5rem;
+    transition: all .3s ease-in-out;
+    color: rgb(59, 57, 55);
+    border-radius: 5px;
+  
+}
+.link:hover{
+    background-color: tomato;
+    color: white;
+    transition: all .3s ease-in-out;
+
+}
+
+
+.hamburger-container {
+    display: none;
+    font-size: 1.5rem;
+
+}
+a.link.active{
+    background-color: tomato;
+    color: white;
+}
+
+
+.search {
+    width: 30%;
+
+}
+
+
+/* Sub Menus CSS */
+
+.profile-name-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.name{
+    font-weight: 600;
+    color: rgb(100, 84, 84);
+    cursor: pointer;
+   
+}
+
+.sub-menues-container{
+  display: flex;
+  /* width: 100%; */
+  flex-direction: column;
+  position: absolute;
+  top: 1.3rem;
+ box-shadow: 0px 0px 5px #ddd;
+
+}
+
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.name{
+    width: 3rem;
+}
+.sub-menus{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1px;
+    padding: 0.7rem 0.5rem;
+    width: 10rem;
+    display: flex;
+}
+.sub-menus:hover{
+    background-color:#FAFAFA;
+}
+.sub-menus>p{
+    /* margin-bottom: 0.6rem; */
+    cursor: pointer;
+
+   
+}
+
+.menus-menu{
+    margin-left: 0.5rem;
+}
+
+/* LOGIN MENU */
+
+.login-btn-action{
+    background-color:#1974C9;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+
+@media (max-width:600px) {
+
+    .nav-menu {
+        display: none;
+
+    }
+
+    .nav-container {
+        position: relative;
+
+    }
+
+    .nav-menu {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 999;
+        position: absolute;
+        top: 0;
+        right: 0;
+        /* top: 5rem; */
+        right: -100%;
+        background-color: aquamarine;
+
+        margin-top: 3.5rem;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+    .nav-menu ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        color: white;
+    }
+
+    .nav-menu ul li {
+        margin-top: 2rem;
+
+        text-align: center;
+        height: 2rem;
+        /* background-color: azure; */
+
+    }
+
+    .link {
+        color: rgb(53, 40, 40);
+        font-size: 1.5rem;
+        font-family: "Roboto" sans-serif;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        position: absolute;
+        margin-top: 3.5rem;
+        right: 0;
+        background-color: aquamarine;
+        height: 100vh;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+        z-index: 999;
+
+    }
+
+    .nav-menu.active ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .nav-menu.active ul li {
+        margin-top: 2rem;
+    }
+
+
+
+    .logo {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: flex;
+
+    }
+
+    .logo-mobile-image {
+        width: 2.5rem;
+    }
+
+    .hamburger-container {
+        display: flex;
+
+    }
+
+    .nav-menu.active {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        top: 0;
+        z-index: 33;
+    }
+
+    .search {
+        width: 60%;
+
+    }
+
+}
